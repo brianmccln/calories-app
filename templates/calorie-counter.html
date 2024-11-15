@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Analyzer</title>
+    <link href="../static/css/calories.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Meal Analyzer - AI App</h1>
+        <h3>Upload a meal image to AI to get preparation instructions and nutritional profile</h3>
+
+        <input type="file" accept="image/png, image/jpg, image/jpeg, 
+        image/webp, image/gif">
+        <button>Send Image</button>
+        <div><br>
+            Include Micronutrients: &nbsp; &nbsp; 
+            <input type="checkbox" id="vitamins-cb">
+            <label for="vitamins-cb">Vitamins</label>
+            &nbsp; &nbsp; &nbsp; &nbsp; 
+            <input type="checkbox" id="minerals-cb">
+            <label for="minerals-cb">Minerals</label>
+        </div>
+
+        <img id="uploaded-img" src="">
+
+        <h3 id="meal-name"></h3>
+        <p id="description"></p>
+        <p id="prep-instructions"></p>
+        <p id="calorie-count"></p>
+        <p id="calories-per-item"></p>
+        <p id="grams"></p>
+        <p id="vitamins"></p>
+        <p id="minerals"></p>
+
+    </div>
+
+    <script src="../static/js/calories.js"></script>
+    
+</body>
+</html>
