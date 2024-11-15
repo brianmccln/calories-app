@@ -1,5 +1,3 @@
-# Writing the provided README content to a .md file
-readme_content = """
 # Meal Analysis App 🥗
 
 This application allows users to upload an image of a meal and receive a detailed analysis, including the meal's name, preparation instructions, description, macronutrients (protein, fat, carbs), and optionally vitamins and minerals. The app leverages the OpenAI API to analyze meal data and provide a structured JSON response.
